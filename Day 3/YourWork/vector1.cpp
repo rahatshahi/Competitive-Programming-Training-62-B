@@ -9,7 +9,7 @@ int main() {
     for(int i = 0; i < n; i++) {
         int x;
         cin >> x;
-        v.push_back(x); // Adds x to the back of the vector
+        v.push_back(x); 
     }
     reverse(v.begin(),v.end());
     for (int i=0;i < n;i++)
